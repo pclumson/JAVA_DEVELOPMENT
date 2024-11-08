@@ -1,9 +1,15 @@
 
-public class MyPyramid {
-     public static void main (String[] args) {
+// import Car.java;
 
-              System.out.println("Hello Prince!");
-        
+
+
+public class MyPyramid {
+
+
+    public static void displayMyPyramid(){
+
+         System.out.println("Hello Prince!");
+
         int rows = 10, k = 0;
 
         for (int i = 1; i <= rows; ++i, k = 0)
@@ -21,6 +27,15 @@ public class MyPyramid {
 
             System.out.println();
         }
+
+
+
+    }
+
+     public static void main (String[] args) {
+
+             displayMyPyramid();
+
 
       }
 }
