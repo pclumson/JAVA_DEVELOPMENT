@@ -56,9 +56,22 @@ public class Car {
     // Helper function to display the car
     public void displayCar(){
         System.out.println("Car make :" + make);
-        System.out.println("Car model :" + model);
-        System.out.println("Car year :" + year);
+        System.out.println("Car model:" + model);
+        System.out.println("Car year:" + year);
 
     }
+
+    public static void main(String[] args)
+    {
+
+         Car c = new Car("Infinity", "C550", 2023);
+
+         c.displayCar();
+    }
+
+
+
+
+
 
 }
