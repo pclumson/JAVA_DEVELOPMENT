@@ -12,7 +12,7 @@ public class Main {
 		int port = 3306;
 		String database = "dbuser1_database";
 		String user = "dbuser1";
-		String password = "XkSNvDVFjRKK";
+		String password = "***###*****###";
 
 		String url = String.format(
 			"jdbc:mariadb://%s:%s/%s?user=%s&password=%s",
